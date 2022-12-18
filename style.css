@@ -207,6 +207,10 @@ picture img {
     p {
         width: 80%;
     }
+
+    h2 {
+        font-size: 2rem;
+    }
 }
 
 .design-text p  {
