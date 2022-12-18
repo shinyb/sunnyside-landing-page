@@ -200,6 +200,14 @@ picture img {
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 700px) {
+    .design-text{
+        width:80%;
+    }
+    p {
+        width: 80%;
+    }
+}
 
 .design-text p  {
     font-size: .8rem;
@@ -355,11 +363,6 @@ footer > * {
 .footer-nav {
     gap: 2.3rem;
 }
-
-
-
-
-
 
 
 @media (max-width: 800px) {
