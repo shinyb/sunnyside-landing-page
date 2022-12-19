@@ -156,8 +156,9 @@ section p {
 .section-1 {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    width: 100%;
+    width: 80%;
     aspect-ratio: 1/1;
+    margin-inline: auto;
           
 }
 
@@ -193,26 +194,19 @@ picture img {
 }
 
 .design-text {
-    width: 50%;
+    width: 60%;
     min-height: 130px;
     text-align: center;
     margin-inline: auto;
     margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 700px) {
-    .design-text{
-        margin: 30px auto;
-        width:80%;
-    }
-    p {
-        width: 80%;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
+.cherry {
+    width: 90%;
 }
+
+
+
 
 /*======================*/
 
@@ -305,12 +299,6 @@ picture img {
 }
 
 
-/*
-.testimonial-container p {
-    color: var(--Drk-grayish-bl);
-    font-weight: 700;
-}
-*/
 .client-img {
     width: 60px;
     height: 60px;
@@ -373,23 +361,37 @@ footer > * {
 
 
 @media (max-width: 800px) {
+    section h2 {
+        font-size: 2rem;
+    }
+
     .section-1 {
        grid-template-columns: 1fr;
        grid-template-rows: 100%;
        justify-content: center;
-       
-               
+ 
     }
      
     div.marketing-text {
-        width: 50%;
-        margin-top: 40px;
-       margin-bottom: 40px;  
+        width: 80%;
+        margin-top: 20px;
+       margin-bottom: 20px;  
     }
 
     .section-3 {
         grid-template-columns: 1fr;
     }
+
+
+    
+.design-text {
+    width: 90%;
+    min-height: 130px;
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+}
+  
 
 }
 
