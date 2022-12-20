@@ -187,10 +187,7 @@ picture img {
     width: 100%;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-   
-    /*align-self: end;
-    text-align: center;*/
-  
+     
 }
 
 .design-text {
@@ -204,6 +201,8 @@ picture img {
 .cherry {
     width: 90%;
 }
+ 
+
 
 
 
@@ -371,7 +370,8 @@ footer > * {
        justify-content: center;
  
     }
-     
+
+
     div.marketing-text {
         width: 80%;
         margin-top: 20px;
