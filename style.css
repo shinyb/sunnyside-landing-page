@@ -163,7 +163,7 @@ section p {
 .section-1 {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    width: 80%;
+    width: 100%;
     aspect-ratio: 1/1;
     margin-inline: auto;
           
