@@ -205,9 +205,7 @@ picture img {
     margin-bottom: 2rem;
 }
 
-.cherry {
-    width: 90%;
-}
+
  
 
 /*======================*/
@@ -221,6 +219,18 @@ picture img {
 .design-text h3 {
     font-size: 1.5rem;
     margin-top: 2rem;
+}
+
+.design-text.fruit {
+    width: 50%;
+    min-height: 130px;
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+}
+
+.design-text.fruit h3 {
+    margin-top: -3rem;
 }
 
 .ut-color-photography {
@@ -264,8 +274,7 @@ picture img {
 .ut-clientp-100 {
     color: var(--Grayis-bl);
     font-size: .8rem;
-    
-    
+   
 }
 
 .client-flex-container {
@@ -361,8 +370,10 @@ footer > * {
     gap: 2.3rem;
 }
 
+/*===MOBILE NAV STARTS HERE====*/
 
-@media (max-width: 800px) {
+
+@media (max-width: 790px) {
     .down-arrow {
         position: absolute;
         top: 270px;
@@ -398,13 +409,18 @@ footer > * {
     }
 
     
-.design-text {
-    width: 90%;
+.design-text.fruit {
+    width: 50%;
     min-height: 130px;
     text-align: center;
     margin-inline: auto;
     margin-bottom: 1rem;
 }
+
+.design-text.fruit h3 {
+    margin-top: -3rem;
+}
+
 
 .mobile-nav {
     display: block;
@@ -420,18 +436,18 @@ footer > * {
 
 
  
-    #mobile-nav-container {
-         padding-top: 100px;      
-        display: flex;
-        flex-direction: column;
-        min-width: 300px;
-        align-items: center;
-        color: #fff;
-        margin-inline: auto;
+#mobile-nav-container {
+    padding-top: 100px;      
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    align-items: center;
+    color: #fff;
+    margin-inline: auto;
      
     }
 
-    #menu-close {
+#menu-close {
     display: none;
     color: white;
     font-size: 2rem;
@@ -439,14 +455,14 @@ footer > * {
     height: 100px;
     }
 
-    #menu-close a {
+#menu-close a {
         text-decoration: none;
         color: #fff;
 
     }
 
-    .hidden {
-        display: none;
+.hidden {
+    display: none;
     }
 
 .mobile-nav-list {
@@ -502,6 +518,22 @@ footer > * {
     }
 
 }
+
+@media (max-width: 500px) {
+    .design-text.fruit {
+        width: 65%;
+        /*min-height: 130px;
+        text-align: center;
+        margin-inline: auto;
+        margin-bottom: 1rem;*/
+    }
+
+    .design-text.fruit h3 {
+        margin-top: .5rem;
+    }
+}
+
+
 
 .attribution { 
         margin-top: 1rem;
